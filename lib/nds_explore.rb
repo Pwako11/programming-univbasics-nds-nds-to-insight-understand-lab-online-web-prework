@@ -9,9 +9,12 @@ end
 
 def print_first_directors_movie_titles
   
-  movies=[{:name =>"Jaws", :movie =>"Close Encounters of the Third Kind"},
- {:name => "E.T", :movie => "Raiders of the Lost Ark"},
- {:name => "Schindler", :movie => " the Extra-terrestrial list "}]
+  i = 0
+  movies = directors_database[0][:movies]
+  while i < movies.count do
+    puts movies[i][:title]
+    i += 1
+  end
   
   # row_index = 0 
   # while row_index < print_first_directors_movie_titles.length do 

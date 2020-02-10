@@ -16,10 +16,4 @@ def print_first_directors_movie_titles
     i += 1
   end
   
-  # row_index = 0 
-  # while row_index < print_first_directors_movie_titles.length do 
-  #   puts "\n #{row_index}"
-  #   row_index += 1
-  # end 
-  
 end
